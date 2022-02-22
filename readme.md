@@ -57,6 +57,9 @@ o
 PARA PROBLEMAS DE CONTABILIDAD DE UBUNTU
 Si tiene problemas para registrarse usando ubuntu o cualquier otra versión de php donde el sitio afirma haberse registrado pero no se hizo, simplemente ejecute el siguiente comando en su base de datos:
 
-
+    
 
     SET GLOBAL sql_mode = '';
+
+**Partners**
+[![](http://tibia-evolution.com/styles/xenfocus/dimension/backgrounds/logo.png)](https://tibia-evolution.com/)
