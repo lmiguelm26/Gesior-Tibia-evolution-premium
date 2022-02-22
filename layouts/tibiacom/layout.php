@@ -657,7 +657,7 @@ if(!defined('INITIALIZED'))
                                             <a class="topleveltext top_offline" style="text-decoration:none" href="?subtopic=characters&name=<?=  $value['name'] ?>">
                                                 <span><?= $cont ?></span> - <?= $value['name'] ?><br><small>Level: <?= $value['level'] ?><br><?= Website::getVocationName($value['vocation']) ?></small>
                                             </a>
-                                            <img class="outfitImgtoplevel" src="https://outfit-images.ots.me/animatedOutfitsFideraGlobal/animoutfit.php?id=<?= $value['looktype'] ?>&addons=0&head=<?= $value['lookhead'] ?>&body=<?= $value['lookbody'] ?>&legs=<?= $value['looklegs'] ?>&feet=<?= $value['lookfeet'] ?>&g=0&h=3&i=1">
+                                            <img class="outfitImgtoplevel" src="https://outfit-images.ots.me/1285_walk_animation/animoutfit.php?id=<?= $value['looktype'] ?>&addons=0&head=<?= $value['lookhead'] ?>&body=<?= $value['lookbody'] ?>&legs=<?= $value['looklegs'] ?>&feet=<?= $value['lookfeet'] ?>&g=0&h=3&i=1">
                                             <?php if($cont == 1) {
                                                 $rankLevel = 'firstlevel';
                                             } else if($cont == 2) {

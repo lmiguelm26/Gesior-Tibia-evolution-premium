@@ -223,14 +223,14 @@ if(!empty($name))
 				if (file_exists($filename)) {
 					return '<td align="center" style="background-color: #D4C0A1;"><img src="https://raw.githubusercontent.com/lmiguelm26/items/master/11.gif" class="CharItems"></td>';
 				} else {
-					return '<td align="center" style="background-color: #D4C0A1;"><img src="https://raw.githubusercontent.com/lmiguelm26/items/master/' . $item_id . '.gif" class="CharItems"></td>';
+					return '<td align="center" style="background-color: #D4C0A1;"><img src="https://raw.githubusercontent.com/lmiguelm26/items/master/' . $item_id . '.png" class="CharItems"></td>';
 				}
 			}
 		};
 
         $player_info = $player->data;
         $mount_id = $player->getStorage('10002011');
-        $cur_outfit = "<img style='text-decoration:none;margin: 0 0 0 -13px;' class='outfitImgsell2' src='./custom_scripts/animatedOutfits/animoutfit.php?id={$player_info['looktype']}&addons={$player_info['lookaddons']}&head={$player_info['lookhead']}&body={$player_info['lookbody']}&legs={$player_info['looklegs']}&feet={$player_info['lookfeet']}&mount=" . ($mount_id == NULL ? 0 : $mount_id) . "' alt='' name=''>";
+        $cur_outfit = "<img style='text-decoration:none;margin: 0 0 0 -13px;' class='outfitImgsell2' src='https://outfit-images.ots.me/1285_walk_animation/animoutfit.php?id={$player_info['looktype']}&addons={$player_info['lookaddons']}&head={$player_info['lookhead']}&body={$player_info['lookbody']}&legs={$player_info['looklegs']}&feet={$player_info['lookfeet']}&mount=" . ($mount_id == NULL ? 0 : $mount_id) . "' alt='' name=''>";
         
         $cur_exp = $player->getExperience();
         $cur_lvl_exp = $player->getExpForLevel($player->getLevel());
