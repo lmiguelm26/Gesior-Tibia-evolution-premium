@@ -1,5 +1,7 @@
-
 [![](https://i.ibb.co/VqBZvn5/logoevo.png)](https://tibia-evolution.com/index.php?threads/premium-gesior-acc-2022-tibia-evolution-12-7x.8/#post-28)
+
+------------
+
 
 ![](https://i.ibb.co/GPm9VYP/Gesior.png)
 
