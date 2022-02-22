@@ -1,59 +1,60 @@
-## Gesior - AAC
 
-### Requirements:
-* [Apache](http://www.apache.org/) with [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) enabled + [PHP](http://php.net) Version 5.6 or newer
+[![](https://i.ibb.co/VqBZvn5/logoevo.png)](https://tibia-evolution.com/index.php?threads/premium-gesior-acc-2022-tibia-evolution-12-7x.8/#post-28)
 
-### How to install:
-* Clone the Gesior-ACC From GitHub.
-* change the permission for write in /cache.
+![](https://i.ibb.co/GPm9VYP/Gesior.png)
 
-```bash
-sudo chmod -R 777 /cache
-```
+Requisitos:
+- Apache con mod_rewrite habilitado + PHP Versión 5.6 o posterior
 
-### Tips and Tricks:
-* This website have some security implements, here you can use apache2 to apply them.
-* run these commands to maximize your security.
-````bash
-sudo a2enmod headers
-sudo a2enmod rewrite 
-````
-* on ubuntu 16.06 or 14.04 go to apache folder and edit your config.
-* run:
-````bash
-sudo vim /etc/apache2/apache2.conf 
-````
-and search for something like this: 
-```markdown
-<Directory PATH_TO_YOUR_WEBSITE>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted         
-</Directory>
-```
+CÓMO INSTALAR: 
+ 1. Clona el Gesior-ACC desde GitHub.
+ 1. cambie el permiso para escribir en /cache.
 
-* and add something like this /\
 
-### PHP NEEDS THAT FOLLOWING
-```bash
-sudo apt-get install php5-gd
-sudo apt-get install php5-curl
-```
+    sudo chmod -R 777 /cache
+Consejos y trucos:
+Este sitio web tiene algunos implementos de seguridad, aquí puede usar apache2 para aplicarlos.
+ejecute estos comandos para maximizar su seguridad.
 
-Make sure curl is enabled in the php.ini file. For me it's in /etc/php5/apache2/php.ini, if you can't find it, this line might be in /etc/php5/conf.d/curl.ini. Make sure the line :
-extension=curl.so
 
-now restart apache.:
-```bash
-sudo /etc/init.d/apache2 restart
-```
-or
-```bash
-sudo service apache2 restart
-```
 
-### FOR UBUNTU ACCOUNTING PROBLEMS
-If you have trouble registering using ubuntu or any other version of php where the site claims to have registered but was not done, simply run the following command on your database:
-```bash
-SET GLOBAL sql_mode = '';
-```
+
+        sudo a2enmod headers
+        sudo a2enmod rewrite 
+en ubuntu 16.06 o 14.04 vaya a la carpeta apache y edite su configuración.
+correr:
+- sudo vim /etc/apache2/apache2.conf 
+y busca algo como esto:
+
+
+
+    <Directory PATH_TO_YOUR_WEBSITE>
+            Options Indexes FollowSymLinks
+            AllowOverride All
+            Require all granted         
+    </Directory>
+y añade algo como esto /\
+
+PHP NECESITA QUE LO SIGUIENTE
+
+
+    sudo apt-get install php5-gd
+    sudo apt-get install php5-curl
+Asegúrese de que curl esté habilitado en el archivo php.ini. Para mí está en /etc/php5/apache2/php.ini, si no puedes encontrarlo, esta línea podría estar en /etc/php5/conf.d/curl.ini. Asegúrese de que la línea : extension=curl.so
+
+ahora reinicie apache.:
+
+
+
+    sudo /etc/init.d/apache2 restart
+o
+
+
+
+    sudo service apache2 restart
+PARA PROBLEMAS DE CONTABILIDAD DE UBUNTU
+Si tiene problemas para registrarse usando ubuntu o cualquier otra versión de php donde el sitio afirma haberse registrado pero no se hizo, simplemente ejecute el siguiente comando en su base de datos:
+
+
+
+    SET GLOBAL sql_mode = '';
