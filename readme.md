@@ -61,8 +61,8 @@ Si tiene problemas para registrarse usando ubuntu o cualquier otra versión de p
     
 
     SET GLOBAL sql_mode = '';
-**
-PARTNERS**
+
+**PARTNERS**
 
 
 [![Partners](http://tibia-evolution.com/styles/xenfocus/dimension/backgrounds/logo.png "Partners")](https://tibia-evolution.com/ "Partners")
