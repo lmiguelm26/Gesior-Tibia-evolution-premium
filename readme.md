@@ -1,3 +1,4 @@
+
 [![](https://i.ibb.co/VqBZvn5/logoevo.png)](https://tibia-evolution.com/index.php?threads/premium-gesior-acc-2022-tibia-evolution-12-7x.8/#post-28)
 
 ------------
@@ -60,6 +61,8 @@ Si tiene problemas para registrarse usando ubuntu o cualquier otra versión de p
     
 
     SET GLOBAL sql_mode = '';
+**
+PARTNERS**
 
-**Partners**
-[![](http://tibia-evolution.com/styles/xenfocus/dimension/backgrounds/logo.png)](https://tibia-evolution.com/)
+
+[![Partners](http://tibia-evolution.com/styles/xenfocus/dimension/backgrounds/logo.png "Partners")](https://tibia-evolution.com/ "Partners")
