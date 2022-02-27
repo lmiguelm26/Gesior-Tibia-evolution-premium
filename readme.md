@@ -43,7 +43,7 @@ PHP NECESITA QUE LO SIGUIENTE
 
     sudo apt-get install php5-gd
     sudo apt-get install php5-curl
-Asegúrese de que curl esté habilitado en el archivo php.ini. Para mí está en /etc/php5/apache2/php.ini, si no puedes encontrarlo, esta línea podría estar en /etc/php5/conf.d/curl.ini. Asegúrese de que la línea : extension=curl.so
+Asegúrese de que curl esté habilitado en el archivo php.ini. Para mí está en la carpeta /etc/php5/apache2/php.ini, si no puedes encontrarlo, esta línea podría estar en /etc/php5/conf.d/curl.ini. Asegúrese de que la línea : extension=curl.so
 
 ahora reinicie apache.:
 
